@@ -1,0 +1,241 @@
+/* defult code */
+*{
+    padding: 0;
+    margin: 0px;
+    
+}
+img{
+    max-width: 100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    width: 55%;
+    text-align: left;
+}
+.t_left{
+    text-align-last: left;
+}
+.t_right{
+    text-align: right;
+}
+.t_center{
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* costome code css */
+header{
+    height: 60px;
+    background-color: #22C3A3;
+}
+header .fix .logo{
+    width: 30%;
+    text-align-last: left;
+}
+header .fix .logo h1{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+}
+header .manu-bar{
+    width: 60%;
+    text-align: right;
+
+}
+header .fix .manu-bar ul{}
+header .fix .manu-bar ul li{
+    display: inline-block;
+    
+}
+header .fix .manu-bar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 60px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+header .fix .manu-bar ul li a:hover{
+    color: white;
+}
+/* banner_part st css */
+.banner{
+    background-image: url(https://i.ibb.co/WGBmg5N/header-bg01.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .fix{}
+.banner .fix .banner_contant{}
+.banner .fix .banner_contant h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+}
+.banner .fix .banner_contant span{
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+.banner .fix .banner_contant a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.banner .fix .banner_contant a:hover{
+    background-color: rgba(115, 201, 209, 0.326);
+}
+/* banner_part end css */
+
+/* service section css st */
+.service{
+    padding: 60px 0;
+    border-bottom: 2px solid #22C3A3;
+}
+.service .fix{}
+.service .fix .service_about{
+    
+padding-bottom: 90px;
+    
+padding-top: 20px;
+}
+.service .fix .service_about h2{}
+.service .fix .service_about p{}
+/* service item part */
+.service .fix .service-all{}
+.service .fix .service-all{
+    text-align: center;
+}
+.service .fix .service-all .service-item{
+    width: 20%;
+    /* border-radius: 6px;
+    border: 1px solid black; */
+    padding: 45px 24px;
+    margin: 0px 9px;
+}
+.service .fix .service-all .service-item span{
+    color: #22C3A3;
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.service .fix .service-all .service-item h2{
+    padding-bottom: 12px;
+}
+.service .fix .service-all .service-item p{}
+/* service section css end */
+
+/* About-part css st */
+.about{
+    /* padding: 40px 0px; */
+}
+.about .fix{}
+.about .fix .about-a{
+    padding: 60px;
+}
+.about .fix .about-a h2{}
+.about .fix .about-a p{}
+
+/* about 2 */
+.about .fix .about-contact {
+    padding: 44px 0px;
+}
+.about .fix .about-contact .about-img{
+    width: 40%;
+    margin-left: -1px;
+}
+.about .fix .about-contact .about-img img{}
+
+/*  */
+.about .fix .about-contact .contai{
+    width: 55%;
+    margin-left: 23px;
+}
+.about .fix .about-contact .contai .about-contant3{
+    padding: 0px 0px 69px 0px;
+}
+.about .fix .about-contact .contai .about-contant3 h1{
+    color: #ddd;
+    padding-bottom: 0px;
+}
+.about .fix .about-contact .contai .about-contant3 p{}
+
+/* contatet */
+.count-us{
+    background: #F6F6F6;
+    padding: 60px 0px;
+}
+.count-us .fix .contat-one{
+    padding-bottom: 28px;
+}
+.count-us .fix .contat-one h1{
+    color: #555;
+}
+.count-us .fix .contat-one p{
+    color: #717171;
+}
+.count-us .fix .contant-a{
+    width: 100%;
+    padding: 100px 40px;
+}
+.count-us .fix .contant-a .contant-two{
+    width: 30%;
+}
+.count-us .fix .contant-a .contant-two span{
+    color: #22C3A3;
+    display: inline-block;
+    font-size: 35px;
+    padding: 0px 0px 20px 0px;
+}
+.count-us .fix .contant-a .contant-two p{
+    font-size: 18px;
+}
+.icon-bar{
+    background-color: #22C3A3;
+    padding: 30px;
+}
+.icon-bar ul{
+    list-style: none;
+}
+.icon-bar ul li{
+    display: inline-block;
+}
+.icon-bar ul li span{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 18px;
+    transition: .3s;
+}
+.icon-bar ul li span:hover{
+    color: white;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer .fix h2{
+    color: #ddd;
+    transition: .3s;
+}
+footer .fix h2:hover{
+    color: orange;
+}
